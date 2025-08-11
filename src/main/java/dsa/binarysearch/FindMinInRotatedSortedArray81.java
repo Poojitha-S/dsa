@@ -7,8 +7,8 @@ public class FindMinInRotatedSortedArray81 {
         int[] nums  = {4, 5, 6, 7, 0, 1, 2};
         int[] nums1  = {1,2,3,4,5};
 
-        System.out.println("Brute Force : " + search.findMinBrute(nums1)); // Output: 0
-        System.out.println("BinarySearch : "+ search.findMinBinarySearch(nums1)); // Output: 2
+        System.out.println("Brute Force : " + search.findMinBrute(nums)); // Output: 0
+        System.out.println("BinarySearch : "+ search.findMinBinarySearch(nums1)); // Output: 1
     }
     public int findMinBrute(int[] nums) {
         int min = Integer.MAX_VALUE;
