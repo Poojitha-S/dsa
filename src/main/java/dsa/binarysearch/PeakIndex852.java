@@ -6,7 +6,7 @@ public class PeakIndex852 {
         PeakIndex852 search = new PeakIndex852();
         int[] nums  = {0,10,11,5,2};
         int[] nums1  = {1,2,1,3,5,6,4};
-
+        //
         System.out.println("Brute Force : " + search.findPeakIndexBrute(nums)); // Output: 2
         System.out.println("BinarySearch : "+ search.findPeakIndexBinarySearch(nums1)); // Output: 5
     }
